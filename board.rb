@@ -29,7 +29,12 @@ class Board
 	end
 
 	def full_board?
+		# Check to see if there is a tie game. 
 		array.flatten.select { |i| i.occupied? }.count == 9
+	end
+
+	def clear_board
+		array.flatten.each { |i| i.value = " " }
 	end
 
 	def empty_cells(position)
