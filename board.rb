@@ -34,6 +34,7 @@ class Board
 	end
 
 	def clear_board
+		# Clear the board if user wants to play again
 		array.flatten.each { |i| i.value = " " }
 	end
 
@@ -48,7 +49,7 @@ class Board
 		false
 	end
 
-	# private 
+	private 
 
 	def coordinates
 		hash = {

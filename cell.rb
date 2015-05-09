@@ -21,3 +21,4 @@ class Cell
 		self.value != " "
 	end
 end
+

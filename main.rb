@@ -90,22 +90,6 @@ class TicTacToe
 	end
 end
 
-TicTacToe.new
-
-# loop through the game until a winner has been chosen
-# or all squares are filled
-
-# current_player chooses a square
-# winner? 
-	# if there is a winner, end game
-# elsif tie?
-	# if tie, end game
-# else alternate player and go again
-
-# human player goes first then alternate with computer 
-# after each player goes, check for winner
-
-
 
 
 
